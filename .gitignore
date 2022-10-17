@@ -1,0 +1,5 @@
+/node_modules
+/.fleet
+/dist
+/.idea
+pnpm-lock.yaml

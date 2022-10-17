@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verify</title>
+</head>
+<body>
+<h1>Verify</h1>
+<div id="root"></div>
+<script type="module">
+    import React from 'react'
+    import {createRoot} from "react-dom/client";
+
+    import {Button} from "/dist/chaos-design-react.mjs";
+
+    createRoot(document.getElementById('root')).render(
+        React.createElement(Button)
+    )
+
+</script>
+</body>
+</html>
